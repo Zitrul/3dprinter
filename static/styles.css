@@ -1,0 +1,37 @@
+.content{
+    width: 100%;
+    background-color: #282828;
+    height: 30%;
+}
+input[type = "submit"]{
+    width: 100%;
+    background-color: #04AA6D;
+    border: none;
+    margin-top: 6px;
+    padding: 6px 12px;
+    color: white;
+    height: 50px;
+    
+}
+input[type="file"] {
+    display: none;
+  }
+h1{
+    padding: 6px 12px;
+    color: aliceblue;
+} 
+.custom-file-upload {
+    border: none;
+    color: aliceblue;
+    text-align: center;
+    background: #04AA6D;
+    display: inline-block;
+    
+    cursor: pointer;
+    margin-right: 0;
+    width: 100%;
+
+}
+body{
+    background: #2d2c2c;
+}
