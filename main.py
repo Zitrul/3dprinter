@@ -45,4 +45,4 @@ def print_with_printer():
 
     return redirect("/")
 if __name__ == "__main__":
-    app.run(debug=True, port = 2000, host = "0.0.0.0")
+    app.run(port = 2000, host = "0.0.0.0")
