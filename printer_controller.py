@@ -4,12 +4,12 @@ from colorama import Fore
 from colorama import Style
 import serial
 from past.builtins import raw_input
+
 #import serial.tools.list_ports
-
 #ports = serial.tools.list_ports.comports()
-
 #for port in ports:
 #    print(port)
+
 def print_file(filename, port, baud):
     gcode_file = open(filename)
     gcode = gcode_file.readlines()

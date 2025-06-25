@@ -4,17 +4,10 @@ from flask import Flask, render_template, request, redirect, flash
 from werkzeug.utils import secure_filename
 from threading import Thread
 from printer_controller import print_file
+from config import UPLOAD_FOLDER, PRINTERS
 app = Flask(__name__)
-app.config['UPLOAD_FOLDER'] = "C:/Users/ardut/cards_rec/3DprinterController/files_to_print"
-printers_conf = [
-    {
-        "name" : "ANYCUBIC I3 MEGA",
-        "baud" : 250000,
-        "port" : "COM4",
-        "status" : "w" #w-в ожидании, p-запущен процесс печати, o-отключен от сети
-
-    }
-]
+app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+printers_conf = PRINTERS
 
 
 @app.route("/")

@@ -2,18 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>3D printer controller</title>
+    <title>3D Printer Controller</title>
     <link rel="stylesheet" href="static/styles.css">
 </head>
 <body>
     <div class="content">
-        <form method = "post" action="/send_to_printer" enctype=multipart/form-data>
-            <h1>Выберите gcode файл для печати.</h1>
+        <form method="post" action="/send_to_printer" enctype="multipart/form-data">
+            <h1>Select a G-code file to print</h1>
+
             <label for="file-upload" class="custom-file-upload">
-                выбрать файл
+                Choose File
             </label>
-            <input id="file-upload" type=file name = file />
-            <input type="submit" value="отправить">
+            <input id="file-upload" type="file" name="file" />
+
+            <input type="submit" value="Send to Printer">
         </form>
     </div>
 </body>
