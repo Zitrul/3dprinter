@@ -19,8 +19,8 @@ Upload your G-code files and start printing right from your browser! 🚀
 
 1. Clone this repo and navigate to the project folder  
 ```bash
-git clone https://github.com/Zitrul/3dprinter.git
-cd 3dprinter
+git clone https://github.com/Zitrul/3dprinter-web.git
+cd 3dprinter-web
 ```
 2. Run the server  
 ```bash
