@@ -24,7 +24,7 @@ cd 3dprinter-web
 ```
 2. Run the server  
 ```bash
-python app.py
+python main.py
 ```
 3. Open in your browser 👉 [http://localhost:2000](http://localhost:2000) and upload your G-code file to print 🎉
 
